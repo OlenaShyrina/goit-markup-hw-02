@@ -1,0 +1,84 @@
+/* вторичный цвет #757575 */
+/* белый #FFFFFF */
+/* адрес rgba(255, 255, 255, 0.6) */
+/* цвет фона шапка #2F303A
+bgc - наша команда #F5F4FA*
+bgc - footer #2F303A*/
+
+
+
+:root {
+   --primary-text-color:#212121;
+   --main-background-color:#E5E5E5;
+   --accent-color:#2196F3;
+}
+
+body {
+   background-color: var(--main-background-color);
+   color: #757575;
+}
+
+/* Header */
+
+/* Logo */
+
+.logo {
+   color: #000000;
+}
+
+.logo-item {
+   color: var(--accent-color);
+}
+
+button {
+   color:#FFFFFF;
+   background-color: var(--accent-color);
+   border-color: transparent;
+}
+
+.list {
+   list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+   color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-color);
+}
+
+.site-nav .link.current {
+   color: var(--accent-color);
+}
+
+.contacts .contact {
+   color: #757575;
+}
+ .contacts .contact:hover,
+ .contacts .contact:focus {
+    color: var(--accent-color);
+ }
+
+ /* Body index */
+
+/* Hero */
+
+.hero-title {
+   color: #FFFFFF;
+}
+
+.section-title {
+   color: var(--primary-text-color);
+}
+
+.feature-title {
+   color: var(--primary-text-color);
+}
+
+.team-name {
+   color: var(--primary-text-color);
+}
