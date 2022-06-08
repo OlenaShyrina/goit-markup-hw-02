@@ -1,6 +1,6 @@
 :root {
    --primary-text-color:#212121;
-   --main-background-color:#E5E5E5;
+   --main-background-color:#FFFFFF;
    --accent-color:#2196F3;
 }
 
@@ -11,7 +11,7 @@ body {
    font-size: 14px;
    letter-spacing: 0.03em;
    color: #757575;
-   background-color: var(--main-background-color);
+
 }
 
 /* Header */
@@ -55,6 +55,7 @@ body {
 
 .site-nav .link {
    text-decoration: none;
+   color: currentColor;
 }
 
 
@@ -98,7 +99,7 @@ body {
    text-transform: uppercase;
 }
 
-button {
+.button {
    
    font-family: inherit;
    font-weight: 700;
@@ -123,6 +124,7 @@ button {
 
 .feature-title {
 
+   font-size: 14px;
    line-height: 1.14;
    color: var(--primary-text-color);
 
@@ -196,7 +198,7 @@ button {
 .address {
    
    font-style: normal;
-   line-height: 0.58;
+   line-height: 1.71;
    color: #FFFFFF;
 }
 
