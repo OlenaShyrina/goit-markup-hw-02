@@ -156,6 +156,7 @@ body {
 
 .filters .filter {
   
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -190,22 +191,20 @@ body {
 /* Footer */
 
 .footer {
-   
+   line-height: 1.71;
    background: #2F303A;
-
+  
 }
 
 .address {
    
-   font-style: normal;
-   line-height: 1.71;
+   font-style: normal; 
    color: #FFFFFF;
 }
 
 .contact-down {
    
    font-style: normal;
-   line-height: 0.58;
    color: rgba(255, 255, 255, 0.6);
    text-decoration: none;
 }
